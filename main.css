@@ -79,6 +79,11 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.webpresence a
+{
+    color:#00b0ff;
+}
 .webpresence h3
 {
   display:inline;
