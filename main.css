@@ -7,6 +7,11 @@
   border:10px;
 }
 
+.nav
+{
+    margin-bottom:1px;
+}
+
 .nav li {
   display: inline;
   padding-right:50px;
@@ -33,6 +38,8 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom:1px;
+  
 }
 
 .jumbotron .container {
@@ -57,18 +64,51 @@
     font-size:10px;
     font-style:italic;
 }
+
+.webpresence 
+{
+    background-color: #efefef;
+    border-bottom:1px solid #dbdbdb;
+    margin-bottom:1px;
+    padding-bottom:10px;
+}
+
+.webpresence h2
+{
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.webpresence h3
+{
+  display:inline;
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
 .learn-more {
-  background-color: #f7f7f7;
+  background-color: #efefef;
+   border-bottom:1px solid #dbdbdb;
 }
 
 .learn-more h3 {
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  
 }
 
 .learn-more a {
   color: #00b0ff;
+}
+
+.learn-more h2
+{
+     font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .neighborhood-guides
@@ -80,8 +120,10 @@
 
 .neighborhood-guides h2
 {
+     font-family: 'Shift', sans-serif;
     color:#393c3d;
     font-size:24px;
+    font-weight: bold;
 }
 
 .neighborhood-guides p
