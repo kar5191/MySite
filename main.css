@@ -27,10 +27,27 @@
 
 .nav li a:hover{
   
-  color:red;
-  background-color:black;
+  
+  background-color:red;
 }
 
+.proj li
+{
+    display: inline;
+    padding-right:25px;
+}
+
+.proj li a:hover {
+  
+  color:black;
+  background-color:#00ffff;
+}
+
+.proj li a
+{
+    color:black;
+    background-color:darkgray;
+}
 
 
 .jumbotron {
