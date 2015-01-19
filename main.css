@@ -21,15 +21,17 @@
 
 .nav li a {
   
-  color:orange;
-  background-color:#f0f0f0;
+  color:#ff8900;
+  background-color:#fefefe;
+  font-size:13.5px;
+  
 }
 
 .nav li a:hover{
   
-  
-  background-color:red;
+  background-color:#feff00;
 }
+
 
 .proj li
 {
@@ -37,16 +39,20 @@
     padding-right:25px;
 }
 
-.proj li a:hover {
+.proj li a {
   
   color:black;
   background-color:#00ffff;
+  font-size:12px;
+  opacity:0.75;
 }
 
-.proj li a
+.proj li a:hover
 {
     color:black;
-    background-color:darkgray;
+    background-color:#00ffff;
+    opacity:1;
+    font-size:12.5px;
 }
 
 
