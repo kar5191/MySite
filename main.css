@@ -22,7 +22,7 @@
 .nav li a {
   
   color:#ff8900;
-  background-color:#fefefe;
+  background-color:white;
   font-size:13.5px;
   
 }
@@ -33,10 +33,15 @@
 }
 
 
+.proj
+{
+    margin-bottom:75px;
+}
 .proj li
 {
     display: inline;
     padding-right:25px;
+    
 }
 
 .proj li a {
@@ -55,6 +60,24 @@
     font-size:12.5px;
 }
 
+.projects
+{
+    border-bottom:1px solid #dbdbdb;
+    margin-top:10px;
+}
+.projects .project1
+{
+    border: 3px solid #dbdbdb;
+    margin-bottom:600px;
+    margin-top:400px;
+}
+.projects .project2,.project3,.project4
+{
+    /*position:relative;*/
+    border: 3px solid #dbdbdb;
+    margin-top:600px;
+    margin-bottom:600px;
+}
 
 .jumbotron {
   background-image:url('http://choicewallpapers.net/wp-content/uploads/2014/06/Grand-Canyon-Sunset-hd-wallpaper-950x534.jpg');
@@ -71,6 +94,7 @@
 }
 
 .jumbotron h3 {
+    padding-top:-20px;
   color: #fff;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
@@ -78,6 +102,7 @@
 }
 
 .jumbotron p {
+    
   font-size: 20px;
   color: #fff;
 }
@@ -88,11 +113,16 @@
     font-style:italic;
 }
 
+
+.webpresence .container
+{
+    margin-top:50px;
+    margin-bottom:50px;
+}
 .webpresence 
 {
-    background-color: #efefef;
+    background-color: white;
     border-bottom:1px solid #dbdbdb;
-    margin-bottom:1px;
     padding-bottom:10px;
 }
 
@@ -101,6 +131,7 @@
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom:25px;
 }
 
 .webpresence a
@@ -117,7 +148,7 @@
 }
 
 .learn-more {
-  background-color: #efefef;
+  background-color: white;
    border-bottom:1px solid #dbdbdb;
 }
 
@@ -130,19 +161,28 @@
 
 .learn-more a {
   color: #00b0ff;
+  font-weight:bold;
+}
+
+.learn-more .container
+{
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .learn-more h2
 {
      font-family: 'Shift', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  margin-bottom:15px;
 }
 
 .neighborhood-guides
 {
-    background-color: #efefef;
+    background-color: white;
     border-bottom:1px solid #dbdbdb;
+    
 }
 
 
