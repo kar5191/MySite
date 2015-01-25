@@ -9,7 +9,7 @@ var main=function()
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".neighborhood-guides").offset().top
-    }, 1600,'easeOutCirc');
+    }, 2000,'easeOutExpo');
     
       $('.proj li').hide().fadeIn(2500);
     });
@@ -18,21 +18,49 @@ var main=function()
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".webpresence").offset().top
-    }, 3000,'easeOutCirc');
+    }, 3000,'easeOutExpo');
     
-    $('.webpresence h3').hide().fadeIn(7600);
+    $('.webpresence h3').hide().fadeIn(9500);
     });
     
       $('.tocontact').click(function(){
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".learn-more").offset().top
-    }, 2800,'easeOutCirc');
+    }, 3000,'easeOutExpo');
     });
     
        $('.house').click(function(){
      //$('.proj').toggle();
       $('body').hide().fadeIn(1000);
+    });
+    
+    $('.tortb').click(function(){
+     //$('.proj').toggle();
+      $('html, body').animate({
+        scrollTop: $(".project1").offset().top
+    }, 3000,'easeOutExpo');
+    });
+    
+     $('.torps').click(function(){
+     //$('.proj').toggle();
+      $('html, body').animate({
+        scrollTop: $(".project2").offset().top
+    }, 3000,'easeOutExpo');
+    });
+    
+     $('.torp').click(function(){
+     //$('.proj').toggle();
+      $('html, body').animate({
+        scrollTop: $(".project3").offset().top
+    }, 3000,'easeOutExpo');
+    });
+    
+     $('.tocd').click(function(){
+     //$('.proj').toggle();
+      $('html, body').animate({
+        scrollTop: $(".project4").offset().top
+    }, 3000,'easeOutExpo');
     });
 }   
     /*$('.dropdown-toggle').click(function(){
