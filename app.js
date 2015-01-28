@@ -39,28 +39,28 @@ var main=function()
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".project1").offset().top
-    }, 3000,'easeOutExpo');
+    }, 2300,'easeOutExpo');
     });
     
      $('.torps').click(function(){
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".project2").offset().top
-    }, 3000,'easeOutExpo');
+    }, 2500,'easeOutExpo');
     });
     
      $('.torp').click(function(){
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".project3").offset().top
-    }, 3000,'easeOutExpo');
+    }, 2700,'easeOutExpo');
     });
     
      $('.tocd').click(function(){
      //$('.proj').toggle();
       $('html, body').animate({
         scrollTop: $(".project4").offset().top
-    }, 3000,'easeOutExpo');
+    }, 2700,'easeOutExpo');
     });
 }   
     /*$('.dropdown-toggle').click(function(){
