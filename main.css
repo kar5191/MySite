@@ -1,37 +1,43 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
-.nav a {
-  color: #5a5a5a;
-  font-size: 14px;
-  font-weight: bold;
-  /*padding: 0px 0px;*/
-  text-transform: uppercase;
-  border:10px;
-}
 
 .nav
 {
     /*margin-bottom:1px;*/
     background:white;
+    
+    
+}
+
+.nav .l2
+{
+    padding-right:1px;
 }
 
 .nav li {
-  display: inline;
+    float:left;
   padding-right:50px;
   
   
 }
 
+
 .nav li a {
+  
   
   color:#ff8900;
   background-color:white;
   font-size:13.5px;
+  font-weight: bold;
+  /*padding: 0px 0px;*/
+  text-transform: uppercase;
+  border:10px;
   
 }
 
 .nav li a:hover{
   
-  background-color:#feff00;
+  background-color:white;
+  color:#ffdd00;
 }
 
 
@@ -114,7 +120,7 @@
 }
 
 .jumbotron {
-  background-image:url('http://cdn.history.com/sites/2/2013/11/grand-canyon-sunset-H.jpeg');
+  background-image:url('http://choicewallpapers.net/wp-content/uploads/2014/06/Grand-Canyon-Sunset-hd-wallpaper-950x534.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,3 +249,4 @@
     font-size:15px;
     margin-bottom:13px;
 }
+
