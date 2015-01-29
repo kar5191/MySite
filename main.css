@@ -20,6 +20,16 @@
   
 }
 
+.nav li img
+{
+    -webkit-filter: contrast(120%) 
+}
+.nav li img:hover
+{
+  
+     -webkit-filter: sepia(100%) 
+}
+
 
 .nav li a {
   
@@ -72,7 +82,7 @@
 {
     border-top:1px solid #dbdbdb;
     border-bottom:1px solid #dbdbdb;
-    
+   
 }
 
 .projects h2
@@ -110,6 +120,8 @@
     margin-top:200px;
     
 }
+
+
 .projects .project2,.project3,.project4
 {
     /*position:relative;*/
@@ -136,22 +148,24 @@
 .jumbotron h3 {
     padding-top:-20px;
   color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-size: 52px;  
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-bottom:20px;
   font-weight: bold;
 }
 
 .jumbotron p {
     
-  font-size: 20px;
+  font-size: 22px;
   color: #fff;
+  font-family:'Open Sans', sans-serif;
 }
 
-.second
+/*.second
 {
     font-size:10px;
     font-style:italic;
-}
+}*/
 
 
 .webpresence .container
@@ -163,12 +177,12 @@
 }
 
 
-.webpresence 
+/*.webpresence 
 {
     
     background-color: white;
     border-bottom:1px solid #dbdbdb;
-    /*padding-bottom:10px;*/
+    padding-bottom:10px;
     border-top:1px solid #dbdbdb;
 }
 
@@ -191,7 +205,7 @@
   font-size: 18px;
   font-weight: bold;
 
-}
+}*/
 
 .learn-more {
   background-color: white;
@@ -215,8 +229,8 @@
 
 .learn-more .container
 {
-    margin-top:30px;
-    margin-bottom:300px;
+    margin-top:10px;
+    margin-bottom:400px;
     
 }
 
@@ -248,5 +262,43 @@
 {
     font-size:15px;
     margin-bottom:13px;
+}
+
+
+.scroll-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #777777;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
 }
 
