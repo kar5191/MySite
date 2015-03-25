@@ -22,12 +22,15 @@
 
 .nav li img
 {
-    -webkit-filter: contrast(120%) 
+    /*-webkit-filter: contrast(120%)*/
+   -webkit-filter: contrast(120%);
+    filter:contrast(120%);
 }
 .nav li img:hover
 {
   
-     -webkit-filter: sepia(100%) 
+    -webkit-filter: sepia(100%);
+     filter: sepia(100%);
 }
 
 
@@ -101,11 +104,49 @@
   padding-left:25px;
   padding-top:10px;
   
+  
 }
 
+.projects h4
+{
+    position:relative;
+  font-family: 'Shift', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color:gray;
+  float:right;
+  top:-35px;
+  left:-25px;
+}
+
+.projects .aa
+{
+    position:relative;
+    font-family: 'Shift', sans-serif;
+    font-weight:bold;
+    
+   
+}
+
+.projects .frame
+{
+    float:right;
+    position:relative;
+    top:-32px;
+  left:-10px;
+}
+
+.projects .links
+{
+    font-family: 'Open Sans condensed', sans-serif;
+    padding-left:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    
+}
 .projects p
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans condensed', sans-serif;
     padding-top:20px;
     padding-left:10px;
     padding-bottom:20px;
@@ -115,18 +156,20 @@
 {
     
     border: 4px solid gray;
-    /*width:85%;*/
+    width:80%;   
     margin-bottom:400px;
     margin-top:200px;
     
+    
 }
+
 
 
 .projects .project2,.project3,.project4
 {
     /*position:relative;*/
     border: 4px solid gray;
-    /*width:85%;*/
+    width:80%;
     margin-top:100px;
     margin-bottom:400px;
 }
@@ -148,17 +191,18 @@
 .jumbotron h3 {
     padding-top:-20px;
   color: #fff;
-  font-size: 52px;  
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 48px;  
+  font-family:'Gloria Hallelujah', cursive;
   padding-bottom:20px;
   font-weight: bold;
 }
 
 .jumbotron p {
     
-  font-size: 22px;
+  font-size: 20px;
   color: #fff;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans condensed', sans-serif;
+  
 }
 
 /*.second
@@ -301,4 +345,3 @@
 .scroll-top-wrapper i.fa {
 	line-height: inherit;
 }
-
