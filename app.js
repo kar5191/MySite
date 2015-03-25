@@ -63,6 +63,90 @@ var main=function()
     }, 2700,'easeOutExpo');
     });
     
+    $(".datamining").click(function(){
+    
+    $.fancybox.open([
+    {
+        href : 'http://i.imgur.com/d2kX9Pi.png',
+        title : '1/7 Problem description'
+        
+    },
+    {
+        href : 'http://i.imgur.com/IY1lVDp.png',
+        title : '2/7 Challenge'
+
+    },
+    {
+        href : 'http://i.imgur.com/A8VLLBH.png',
+        title : '3/7 A Trial Study'
+
+    },
+    {
+        href : 'http://i.imgur.com/iO87Z54.png',
+        title : '4/7 Classification'
+
+    },
+    {
+        href : 'http://i.imgur.com/jw4vLlB.png',
+        title : '5/7 Data'
+
+    },
+    {
+        href : 'http://i.imgur.com/ZFjJS1b.png',
+        title : '6/7 Evaluation'
+
+    },
+    {
+        href : 'http://i.imgur.com/Lkxzfiw.png',
+        title : '7/7 Results'
+
+    }
+    
+    
+], {
+    padding : 0   
+});
+  
+    
+    });
+    
+    $(".compiler").click(function(){
+    
+    $.fancybox.open([
+    {
+        href : 'http://i.imgur.com/jUx8IwA.png',
+        title : '1/5 Lexer'
+
+    },
+    {
+        href : 'http://i.imgur.com/ukFf0JL.png',
+        title : '2/5 Parser showing the Parse Tree'
+
+    },
+    {
+        href : 'http://i.imgur.com/OwAz3fH.png',
+        title : '3/5 Intermediate Code'
+
+    },
+    {
+        href : 'http://i.imgur.com/yZjyQ5x.png',
+        title : '4/5 Virtual Machine - Input'
+
+    },
+    {
+        href : 'http://i.imgur.com/pQMesDb.png',
+        title : '5/5 Virtual Machine - Output'
+
+    }
+   
+    
+], {
+    padding : 0   
+});
+  
+    
+    });
+    
     
     $(function(){
  
@@ -152,4 +236,7 @@ function scrollToTop() {
     
 
 
-$(document).ready(main);
+$(document).ready(function(){
+$(".iframe").fancybox();
+main();
+});
