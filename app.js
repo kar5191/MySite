@@ -95,7 +95,7 @@ function scrollToTop() {
 	element = $('body');
 	offset = element.offset();
 	offsetTop = offset.top;
-	$('html, body').animate({scrollTop: offsetTop}, 1000, 'swing');
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
 
 //http://www.webtipblog.com/adding-scroll-top-button-website
