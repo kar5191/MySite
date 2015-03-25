@@ -11,8 +11,19 @@
     
     <link rel="stylesheet" href="style.css">
     
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+    <link rel="stylesheet" href="jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59196730-1', 'auto');
+  ga('send', 'pageview');
+   </script> 
    
-  
   </head>
 
   <body>
@@ -72,11 +83,10 @@
     <div class="projects">
         <div class="container">
          <h2>Project description</h2>
-         
-          <div class="project1">
+         <div class="project1">
            <div class="row">
            <h3>OrbitTrack: Real-Time Tracking of Buses</h3>
-            <h4 class="tech"> JAVA, ANDROID, GOOGLE MAPS API, PARSE API.</h4>
+            <h4 class> JAVA, ANDROID, GOOGLE MAPS API, PARSE API.</h4>
                <div class="col-md-6">
                    <p>OrbitTrack is an Android application that gives real time location updates of buses operating in the city of Tempe. 
                    Riders on the bus use the app to send their location every few seconds to the server. 
@@ -97,7 +107,7 @@ Users waiting for the bus at designated stops use this information to locate the
          <div class="project2">
             <div class="row">
            <h3>Rock-Paper-Scissors for Android</h3>
-           <h4 class="tech"> JAVA, ANDROID, GOOGLE SPEECH API, BLUETOOTH.</h4>
+           <h4 class> JAVA, ANDROID, GOOGLE SPEECH API, BLUETOOTH.</h4>
                <div class="col-md-6">
                    <p>The game has both single player and two player versions of the popular game. 
 The two-player version uses bluetooth which enables users with the app to compete against each other.
@@ -109,19 +119,19 @@ The application uses speech to get user input for which the google speech recogn
               </div>
            </div>
          </div>
-         
          <div class="project3">
             <div class="row">
            <h3>Data Mining: Remission Prediction of Depression Treatment</h3>
-           <h4 class="tech"> MATLAB, WEKA PACKAGE</h4>
+           <h4 class> MATLAB, WEKA PACKAGE</h4>
                <div class="col-md-6">
                    <p>Classification problem to predict the treatment outcome of depressive patients. The challenge is to classify records as remission or non-remission 
                    from a large data set consisting of 600 objects and more than 2500 attributes. The classification algorithm was implemented in Matlab. Our results achieved the highest prediction accuracy among 40 competing ones.
                </div>
-              
+               <div>
+                <button class="button datamining">View Project</button>
+               </div>
            </div>
          </div>
-         
          <div class="project4">
            <div class="row">
            <h3>Compiler Design</h3>
@@ -129,7 +139,9 @@ The application uses speech to get user input for which the google speech recogn
                <div class="col-md-6">
                    <p> Developed a fully functional compiler for a C-like language and includes the results of Lexical, Syntactical and Semantic analysis of the source code. Generates the intermediate code of the source code. The interface also includes a virtual machine where the generated intermediate code can be input and the results of compilation can be obtained and verified. Used Java to design the compiler.
                </div>
-              
+              <div>
+                <button class="button compiler">View Project</button>
+               </div>
            </div>
          </div>
          
@@ -168,9 +180,10 @@ The application uses speech to get user input for which the google speech recogn
 	</span>
 </div>
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://rawgit.com/kar5191/MySite/master/jquery.easing.1.3.js"></script>
     <script src="app.js"></script>
+    <script type="text/javascript" src="jquery.fancybox.pack.js?v=2.1.5"></script>
      
   </body>
 </html>
